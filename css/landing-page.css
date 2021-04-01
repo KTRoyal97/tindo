@@ -1,0 +1,63 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: url("../images/tinder-logo.jpg");
+  background-size: 100% 900px;
+}
+.btn-login {
+  margin-top: 300px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+.btn-register {
+  margin-top: 230px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.container a:hover {
+  text-decoration: none;
+}
+
+#btn-google {
+  background-color: #ea4335;
+  border-radius: 20px;
+}
+#btn-google a {
+  color: white;
+}
+
+#btn-facebook {
+  background-color: #3b5998;
+  border-radius: 20px;
+}
+#btn-facebook a {
+  color: white;
+}
+
